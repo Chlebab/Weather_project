@@ -27,6 +27,7 @@ const WeatherContainer = ({weather, selectCity, selectDays}) => {
                     .filter((time) => time.time_epoch >= localTimeEpoch - 3600)
                     .map((time) => {
                         const dateTime = new Date(time.time);
+                        // a minor change
 
                         const formattedTime = dateTime.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit', hour12: true })
                     
