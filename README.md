@@ -1,5 +1,18 @@
-# React + Vite
+# Weather App
 
+Technologies:
+-> JavaScript
+
+Prerequisites:
+Node
+Get an API key from https://www.weatherapi.com. Add .env file in the root folder with the following line: 'VITE_REACT_APP_API_KEY=<your API key>' 
+
+Starting:
+  npm i 
+  npm run dev
+
+
+===================================================================
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
